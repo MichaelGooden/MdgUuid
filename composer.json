@@ -1,0 +1,31 @@
+{
+    "name": "michaelgooden/mdg-uuid",
+    "description": "Simple UUID generation functionality, using Zend Framework 2's Zend\\Math\\Rand component.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "uuid"
+    ],
+    "homepage": "https://github.com/MichaelGooden/MdgUuid",
+    "authors": [
+        {
+            "name": "Michael Gooden",
+            "email": "me@michaelgooden.net",
+            "homepage": "http://michaelgooden.github.com/"
+        }
+    ],
+    "require": {
+        "zendframework/zend-math": "2.*"
+    },
+    "suggest": {
+        "ircmaxell/random-lib": "Fallback random byte generator for Zend\\Math\\Rand if OpenSSL/Mcrypt extensions are unavailable"
+    },
+    "autoload": {
+        "psr-0": {
+            "MdgUuid\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
