@@ -1,4 +1,5 @@
 {
+    "abandoned": true,
     "name": "michaelgooden/mdg-uuid",
     "description": "Simple UUID generation functionality, using Zend Framework 2's Zend\\Math\\Rand component.",
     "type": "library",
